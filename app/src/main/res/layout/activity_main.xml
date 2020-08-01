@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFB6C1"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/heart"/>
+
+   <EditText
+       android:id="@+id/editText1"
+       android:layout_width="match_parent"
+       android:layout_height="60dp"
+       android:background="@drawable/border"
+       android:hint="Your Name"
+       android:gravity="center"
+       android:textColorHint="#c7081f"
+       android:layout_marginRight="20dp"
+       android:layout_marginLeft="20dp"
+       android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="💝"
+            android:textSize="40dp"
+            android:layout_gravity="center"/>
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Your Crush Name"
+        android:gravity="center"
+        android:textColorHint="#c7081f"
+        android:background="@drawable/border"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate Love"
+        android:paddingRight="40dp"
+        android:paddingLeft="20dp"
+        android:textColor="#fff"
+        android:textSize="16dp"
+        android:textStyle="bold|italic"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/buttonbackground"/>
+
+    <TextView
+        android:id="@+id/percent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="😍"
+        android:textSize="60dp"
+        android:textColor="#ec5700"
+        android:layout_gravity="center"
+        android:layout_margin="12dp"/>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
